@@ -1,23 +1,30 @@
 # Base configuration
 permalink: /:title
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude:
+  - .rvmrc
+  - .rbenv-version
+  - README.md
+  - Rakefile
+  - changelog.md
+include:
+  - pages
 markdown: kramdown
 highlighter: pygments
 
 # Title
-name: DOCter
-subtitle: A Jekyll template for project documentation
+name: Blazing Cloud Lists
+subtitle: project management, the easy way
 
 # When using this template with a project page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
 # See http://jekyllrb.com/docs/github-pages/ for more info
 #baseurl: ''
-baseurl: '/DOCter'
+baseurl: 'checklists'
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: Name
+  name: Sarah Allen, Blazing Cloud, Inc.
   url: http://localhost:4000
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
@@ -27,22 +34,34 @@ logoalt:
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Home
+- text: Overview
   url: index.html
   internal: true
-- text: Example Page
-  url: example_page.html
+- text: New Project Checklist
+  url: pages/new-project-checklist.html
   internal: true
-- text: DOCter Repo
-  url: https://github.com/cfpb/DOCter
-  internal: false
+- text: Project Template
+  url: pages/project-template.html
+  internal: true
+- text: Roles & Responsibilities
+  url: pages/project-roles-and-responsibilities.html
+  internal: true
+- text: Ship Sequence
+  url: pages/product-ship-sequence.html
+  internal: true
+- text: Leaving Checklist
+  url: pages/leaving-project-checklist.html
+  internal: true
+# - text: DOCter Repo
+#   url: https://github.com/cfpb/DOCter
+#   internal: false
 
 # Repo list
 # List repos that you would like to appear on the homepage here
 repos:
-- name: DOCter
-  description: Jekyll template for docs
-  url: https://github.com/cfpb/DOCter
+- name: Blazing Cloud Lists
+  description: Checklists for Blazing Cloud projects
+  url: https://github.com/blazingcloud/lists
 
 # Style Variables
-brand_color: "#2cb34a"
+brand_color: "#69c5ea"
