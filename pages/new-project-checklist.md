@@ -5,12 +5,12 @@ title:  "New Project Checklist"
 
 ## When starting a new project
 
-1. Have you gone thru the [[Leaving Project Checklist]] for your previous project(s)?
-1. Check in with team members and create agenda for [[kick off meeting]]
-1. Have we had a [[kick off meeting]]?
-1. Fill out a [[Project Template]]
-1. Have all team members added to harvest?
-1. Have all team members been added to pivotal tracker (or another bug tracker; ex Unfuddle)?
+1. Have you gone thru the [Leaving Project Checklist][leaving] for your previous project(s)?
+1. Have we had a [kick-off meeting][kickoff]?
+   - If not, check in with team members and create agenda for [kick-off meeting][kickoff]
+1. Fill out a [Project Template][project]
+1. Have all team members been added to Harvest for time tracking?
+1. Have all team members been added to Pivotal Tracker (or another bug tracker; ex Unfuddle)?
 1. Is there a repository for source code? Have all team members been given access to it?
 1. Are we using Heroku? [[Heroku checklist]]
 1. Are we using dropbox to share files? What is the name of the dropbox folder?
@@ -21,22 +21,27 @@ title:  "New Project Checklist"
 1. What is the iteration schedule?
 1. How often should we deploy/builds?
 
-## When being added to an existing project
+## When I am being added to an existing project
 
-1. Have you gone thru the [[Leaving Project Checklist]] for your previous project(s)?
-1. Review and verify the [[Project Template]] associated with the project
+1. Have I gone thru the [Leaving Project Checklist][leaving] for your previous project(s)?
+1. Review and verify the [Project Template][project] associated with the project
 1. Have I been added to harvest?
 1. Have I been added to pivotal tracker (or another bug tracker; ex Unfuddle)?
 1. Have I been given access to the source repo?
 1. Do I have access to the project's Dropbox folder?
 1. Is there a README, wiki or other documentation that can help me set up my dev environment?  If not make one.  If it is "wiki or other docs" README should refer to there.
 1. Have I been properly introduced to the project?
-  a. Have you met with the project manager to review milestones, road map and overall project trajectory?
-  b. Have you met with the product champion to review business goals and product approach?
+  a. Have I met with the project manager to review milestones, road map and overall project trajectory?
+  b. Have I met with the product champion to review business goals and product approach?
 1. Have I been added to the Google group for this project?
  1. Review Roles and Responsibilities
- 1. Project goals
-1. Do I know what I am supposed to be working on and do I have bugs/features assigned to me?
+ 1. Review Project goals with the Product Champion and Project Manager
 1. Review new project checklist for any other things that might be relevant.
 1. What is the iteration schedule?
-1. How often do we deploy (after every checking, every day, etc...)?
+1. How often do we deploy (after every checkin, every day, etc...)?
+1. Do I know what I am supposed to be working on and do I have bugs/features assigned to me?
+1. When I start working on my first story, do I really understand why I am doing this?  If not, talk to the Product Champion.
+
+[leaving]: leaving-project-checklist.html
+[kickoff]: kick-off-meeting.html
+[project]: project-template.html

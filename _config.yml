@@ -20,7 +20,7 @@ subtitle: project management, the easy way
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
 # See http://jekyllrb.com/docs/github-pages/ for more info
 #baseurl: ''
-baseurl: 'checklists'
+baseurl: '/lists'
 
 # Author/Organization info to be displayed in the templates
 author:
@@ -49,7 +49,7 @@ navigation:
 - text: Ship Sequence
   url: pages/product-ship-sequence.html
   internal: true
-- text: Leaving Checklist
+- text: Leaving Project Checklist
   url: pages/leaving-project-checklist.html
   internal: true
 # - text: DOCter Repo
@@ -60,7 +60,7 @@ navigation:
 # List repos that you would like to appear on the homepage here
 repos:
 - name: Blazing Cloud Lists
-  description: Checklists for Blazing Cloud projects
+  description: Project Checklists 
   url: https://github.com/blazingcloud/lists
 
 # Style Variables

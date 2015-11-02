@@ -1,3 +1,8 @@
+## Content License
+
+The goal is to help people make software better.  Content is released under [Creative Commons Attribution-ShareAlike](http://creativecommons.org/licenses/by-sa/4.0/legalcode).
+
+## Style and Jekyll Template License
 As a work of the United States Government, this package is in the
 public domain within the United States. Additionally, we waive
 copyright and related rights in the work worldwide through the CC0 1.0
@@ -11,8 +16,7 @@ the terms of the original open-source license.
 
 For further details, please see the CFPB [Source Code Policy][policy].
 
-
-## CC0 1.0 Universal Summary
+### CC0 1.0 Universal Summary
 
 This is a human-readable summary of the [Legal Code (read the full text)][CC0].
 
@@ -23,7 +27,7 @@ the public domain by waiving all of his or her rights to the work worldwide
 under copyright law, including all related and neighboring rights, to the
 extent allowed by law.
 
-You can copy, modify, distribute and perform the work, even for commercial 
+You can copy, modify, distribute and perform the work, even for commercial
 purposes, all without asking permission. See Other Information below.
 
 ### Other Information
@@ -45,4 +49,3 @@ author or the affirmer.
 
 * [Respond.js](https://github.com/scottjehl/Respond) by Scott Jehl, licensed under the MIT license.
 * [The HTML5 Shiv](https://github.com/aFarkas/html5shiv), dual licensed under the MIT or GPL Version 2 licenses.
-* 
